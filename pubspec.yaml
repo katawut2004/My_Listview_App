@@ -1,0 +1,36 @@
+name: my_gall
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Example of adding other dependencies:
+  # provider: ^6.0.0
+  # http: ^0.13.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/01.jpg
+    - assets/images/02.jpg
+    - assets/images/03.jpg
+    - assets/images/04.jpg
+    - assets/images/05.jpg
+    - assets/images/06.jpg
+  # Example of adding fonts:
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/Roboto-Regular.ttf
+  #       - asset: assets/fonts/Roboto-Bold.ttf
