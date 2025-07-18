@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:my_gall/components/drawer.dart';
 
 import 'gallery.dart';
 import 'list.dart';
+import 'components/drawer.dart';
 
 void main() {
   runApp(const MainApp());
@@ -22,6 +24,7 @@ class MainApp extends StatelessWidget {
           title: const Text("KATAWUT 105"),
           backgroundColor: const Color.fromARGB(255, 255, 225, 114),
         ),
+        drawer: const MyDrawer(),
         body: SingleChildScrollView( 
           child: Column(
             children: [
